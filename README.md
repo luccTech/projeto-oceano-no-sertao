@@ -5,7 +5,7 @@
 Este projeto faz parte das atividades de Programação Web do 4º Ano, com o objetivo de aplicar conceitos de desenvolvimento front-end (HTML, CSS e JavaScript) em um projeto com relevância social e ambiental.
 
 <div align="center">
-  <img src="assets/img/ifba/ifba.png" alt="Logo do IFBA - Instituto Federal da Bahia" width="60%"/>
+  <img src="assets/img/ifba/ifba.png" alt="Logo do IFBA - Instituto Federal da Bahia" width="70%"/>
 </div>
 
 ## 4º Ano: Programação Web
