@@ -3,36 +3,36 @@
  * Oceano no Sertão: O Portal da Cultura Hídrica
  */
 
-// Constantes para cálculos de consumo de água
+// Constantes para cálculos de consumo de água (valores realistas)
 const WATER_CONSUMPTION = {
-  // Consumo por minuto de banho (litros)
-  SHOWER_PER_MINUTE: 15,
+  // Consumo por minuto de banho (litros) - chuveiros modernos
+  SHOWER_PER_MINUTE: 8,
 
-  // Consumo por descarga (litros)
-  FLUSH_CONSUMPTION: 6,
+  // Consumo por descarga (litros) - vasos sanitários eficientes
+  FLUSH_CONSUMPTION: 4,
 
-  // Consumo por lavagem de roupa (litros)
-  LAUNDRY_CONSUMPTION: 120,
+  // Consumo por lavagem de roupa (litros) - máquinas eficientes
+  LAUNDRY_CONSUMPTION: 80,
 
-  // Consumo por minuto de lavagem de pratos (litros)
-  DISHES_PER_MINUTE: 12,
+  // Consumo por minuto de lavagem de pratos (litros) - torneiras eficientes
+  DISHES_PER_MINUTE: 6,
 
-  // Consumo por lavagem de carro (litros)
-  CAR_WASH_CONSUMPTION: 200,
+  // Consumo por lavagem de carro (litros) - uso consciente
+  CAR_WASH_CONSUMPTION: 120,
 };
 
-// Consumo sustentável ideal por pessoa (litros por mês)
+// Consumo sustentável ideal por pessoa (litros por mês) - valores realistas
 const SUSTAINABLE_CONSUMPTION = {
-  1: { min: 4500, max: 5100 },
-  2: { min: 9000, max: 10200 },
-  3: { min: 13500, max: 15300 },
-  4: { min: 18000, max: 20400 },
-  5: { min: 22500, max: 25500 },
-  6: { min: 27000, max: 30600 },
-  7: { min: 31500, max: 35700 },
-  8: { min: 36000, max: 40800 },
-  9: { min: 40500, max: 45900 },
-  10: { min: 45000, max: 51000 },
+  1: { min: 6000, max: 9000 },
+  2: { min: 12000, max: 18000 },
+  3: { min: 18000, max: 27000 },
+  4: { min: 24000, max: 36000 },
+  5: { min: 30000, max: 45000 },
+  6: { min: 36000, max: 54000 },
+  7: { min: 42000, max: 63000 },
+  8: { min: 48000, max: 72000 },
+  9: { min: 54000, max: 81000 },
+  10: { min: 60000, max: 90000 },
 };
 
 // Mensagens de status
@@ -84,11 +84,11 @@ function setDefaultValues() {
   const defaults = {
     people: 4,
     showers: 1,
-    showerDuration: 10,
-    flushes: 5,
-    laundry: 3,
+    showerDuration: 8, // Reduzido de 10 para 8 minutos
+    flushes: 4, // Reduzido de 5 para 4 descargas
+    laundry: 2, // Reduzido de 3 para 2 lavagens/semana
     dishes: 2,
-    dishesDuration: 15,
+    dishesDuration: 10, // Reduzido de 15 para 10 minutos
     carWash: 1,
   };
 
